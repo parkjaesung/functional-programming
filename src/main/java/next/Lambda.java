@@ -1,4 +1,4 @@
-package lambda;
+package next;
 
 import java.util.List;
 

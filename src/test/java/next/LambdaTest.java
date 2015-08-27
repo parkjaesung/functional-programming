@@ -1,9 +1,11 @@
-package lambda;
+package next;
 
 import static org.junit.Assert.*;
 
 import java.util.Arrays;
 import java.util.List;
+
+import next.Lambda;
 
 import org.junit.Before;
 import org.junit.Test;
