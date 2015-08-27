@@ -20,9 +20,13 @@ public class StreamStudyTest {
 	
 	@Test
 	public void countWords() throws Exception {
-		String fileName = "src\\main\\resources\\war-and-peace.txt";
-		long result = StreamStudy.countWords(fileName);
+		long result = StreamStudy.countWords();
 		System.out.println("result : " + result);
+	}
+	
+	@Test
+	public void printLongestWordTop100() throws Exception {
+		StreamStudy.printLongestWordTop100();
 	}
 	
 	@Test
